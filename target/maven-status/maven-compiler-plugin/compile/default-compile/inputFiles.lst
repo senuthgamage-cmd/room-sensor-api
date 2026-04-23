@@ -16,6 +16,7 @@ C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\exception\Fo
 C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\exception\GlobalExceptionMapper.java
 C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\exception\UnprocessableEntityException.java
 C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\exception\UnprocessableEntityExceptionMapper.java
+C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\exception\WebApplicationExceptionMapper.java
 C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\filter\RequestLoggingFilter.java
 C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\filter\ResponseLoggingFilter.java
 C:\Users\senut\room-sensor-api\src\main\java\com\example\roomsensor\Main.java

@@ -20,4 +20,5 @@ com\example\roomsensor\exception\UnprocessableEntityExceptionMapper.class
 com\example\roomsensor\dto\CreateReadingRequest.class
 com\example\roomsensor\dto\CreateRoomRequest.class
 com\example\roomsensor\exception\GlobalExceptionMapper.class
+com\example\roomsensor\exception\WebApplicationExceptionMapper.class
 com\example\roomsensor\dto\CreateSensorRequest.class
