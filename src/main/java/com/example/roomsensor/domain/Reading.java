@@ -1,16 +1,14 @@
 package com.example.roomsensor.domain;
 
-import java.time.Instant;
-
 public class Reading {
     private String id;
     private Double value;
-    private Instant timestamp;
+    private Long timestamp;
 
     public Reading() {
     }
 
-    public Reading(String id, Double value, Instant timestamp) {
+    public Reading(String id, Double value, Long timestamp) {
         this.id = id;
         this.value = value;
         this.timestamp = timestamp;
@@ -32,11 +30,11 @@ public class Reading {
         this.value = value;
     }
 
-    public Instant getTimestamp() {
+    public Long getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(Instant timestamp) {
+    public void setTimestamp(Long timestamp) {
         this.timestamp = timestamp;
     }
 }

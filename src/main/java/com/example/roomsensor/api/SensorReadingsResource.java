@@ -34,7 +34,7 @@ public class SensorReadingsResource {
     @POST
     public Response addReading(CreateReadingRequest request) {
         String id = request.getId() == null || request.getId().isBlank() ? UUID.randomUUID().toString() : request.getId();
-        Reading reading = new Reading(id, request.getValue(), Instant.now());
+        Reading reading = new Reading(id, request.getValue(), Instant.now().toEpochMilli());
         sensor.getReadings().add(reading);
 
         return Response.created(URI.create("/api/v1/sensors/" + sensor.getId() + "/readings/" + id))
